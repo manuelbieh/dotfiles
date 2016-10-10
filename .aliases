@@ -1,0 +1,26 @@
+alias cls="cmd /c cls"
+alias gdw="gulp default watch"
+alias vup="vagrant up"
+alias vprov="vagrant provision"
+alias vssh="vagrant ssh"
+alias vhalt="vagrant halt"
+
+alias apm="apm.cmd"
+alias atom="atom.cmd"
+
+dirUp1() { cd ../"$1"; }
+dirUp2() { cd ../../"$1"; }
+dirUp3() { cd ../../../"$1"; }
+dirUp4() { cd ../../../../"$1"; }
+dirUp5() { cd ../../../../../"$1"; }
+dirUp6() { cd ../../../../../../"$1"; }
+
+alias ..=dirUp1
+alias ...=dirUp2
+alias ....=dirUp3
+alias .....=dirUp4
+alias ......=dirUp5
+alias .......=dirUp6
+
+alias pd=pushd
+alias pp=popd
